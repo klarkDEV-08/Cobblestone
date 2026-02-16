@@ -6,6 +6,8 @@ const confirmPass = document.getElementById("confirm-password");
 const botao = document.getElementById("button-send");
 const email = document.querySelector('input[name="email"]');
 const botaoBack = document.getElementById("ToggleBack");
+const buttonPlus = document.getElementsByClassName("add-button");
+const buttonFilter = document.getElementsByClassName("filter-button");
 
 if (botaoBack) {
   botaoBack.addEventListener("click", () => {

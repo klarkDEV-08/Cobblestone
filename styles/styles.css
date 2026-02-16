@@ -78,12 +78,15 @@ a{
 
 #nav-bar i{
     padding-top: 30px;
+    padding-left: 20px;
     font-size: 20px;
     cursor: pointer;
 }
 
 #nav_bar-title{
-    padding-left: 8px;
+    padding-left: 20px;
+    color: white;
+
 }
  
 #text-content{
@@ -136,8 +139,15 @@ a{
     background-color: #5170ff;
     cursor: pointer;
     color: white;
+    border: none;
+    -webkit-box-shadow: 7px 11px 50px -11px rgba(0,0,0,0.8); 
+    box-shadow: 7px 11px 50px -11px rgba(0,0,0,0.8);
 }
 
+.copyright{
+    color: white;
+    padding: 0 0 2px 10px;
+}
 .add-button{
     width: 30vw;
     height: 13vh;
@@ -150,6 +160,9 @@ a{
     background-color: #5170ff;
     cursor: pointer;
     color: white;
+    border: none;
+    -webkit-box-shadow: 7px 11px 50px -11px rgba(0,0,0,0.8); 
+    box-shadow: 7px 11px 50px -11px rgba(0,0,0,0.8);
 }
 
 .content-user{
@@ -209,7 +222,7 @@ a{
     margin-left: 50px;
     height: 5vh;
     width: 70%;
-    border-radius: 50px;
+    border-radius: 10px;
     padding-top: 25px;
     color: white;
     font-family: "Poppins";
@@ -217,5 +230,6 @@ a{
     -webkit-box-shadow: 10px 19px 50px -20px #000000; 
     box-shadow: 10px 19px 50px -20px #000000;
     text-shadow: 4px 2px 20px rgba(0,0,0,0.68);
+    border: none;
 }
 
