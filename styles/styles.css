@@ -29,6 +29,7 @@ a{
     border-radius: 5px;
     -webkit-box-shadow: 3px 6px 24px 0px #000000; 
     box-shadow: 3px 6px 24px 0px #000000;
+    display: grid;
 }
 
 #button-send{
@@ -101,6 +102,26 @@ a{
     display: flex;
     height: 20vh;
 }
+
+#Toggleconfirm{
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+#ToggleBack{
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    padding-top: 4px;
+    padding-right: 9px;
+}
+
+#page-back{
+    width: 12vw;
+    height: 5vh;
+    padding-left: 0;
+    margin: 10px 0 0 35px;
+}
 /*CSS Class*/
 
 .filter-button{
@@ -114,6 +135,7 @@ a{
     }
     background-color: #5170ff;
     cursor: pointer;
+    color: white;
 }
 
 .add-button{
@@ -127,6 +149,7 @@ a{
     }
     background-color: #5170ff;
     cursor: pointer;
+    color: white;
 }
 
 .content-user{
@@ -190,5 +213,9 @@ a{
     padding-top: 25px;
     color: white;
     font-family: "Poppins";
+    cursor: pointer;
+    -webkit-box-shadow: 10px 19px 50px -20px #000000; 
+    box-shadow: 10px 19px 50px -20px #000000;
+    text-shadow: 4px 2px 20px rgba(0,0,0,0.68);
 }
 

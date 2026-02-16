@@ -9,9 +9,6 @@
 </head>
 <body>
     <div id="text-login">
-        <div id="page-back">
-            <a href="index.html"><i class="fa-solid fa-backward"></i></a>
-        </div>
         <h1 id="title-login">
             Register your account
         </h1>
@@ -23,8 +20,8 @@
         <div id="content-login">
             <div class="content-user">
                 <i class="fa-solid fa-user"></i>
-                <input type="email" name="email" placeholder="Type your email: ">
-                <input type="email" name="email" placeholder="Confirm your email:  ">
+                <input id="email" type="email" name="email" placeholder="Type your email: ">
+                <input id="confirm-email" type="email" name="email" placeholder="Confirm your email:  ">
             </div>
             <div class="content-password">
                 <div class="grid-icons">
@@ -32,12 +29,16 @@
                     <i id="ToggleSenha" class="fa-solid fa-eye-slash"></i>
                 </div>
                     <input id="password" type="password" name="password" placeholder="Type you password: ">
-                    <input id="password" type="password" name="password" placeholder="Confirm your password: "> 
+                    <i id="Toggleconfirm" class="fa-solid fa-eye-slash"></i>
+                    <input id="confirm-password" type="password" name="password" placeholder="Confirm your password: "> 
             </div>
             <div class="content-send">
-                <a href="content.html"><button id="button-send">Register</button></a>
+                <button id="button-send">Register</button>
             </div>
         </div>
+    </div>
+    <div id="page-back">
+        <i id="ToggleBack" class="fa-solid fa-backward"></i>
     </div>
     <script src="src/script.js"></script>
 </body>
